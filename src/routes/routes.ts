@@ -6,6 +6,6 @@ router.get('/', ( req, res ) => {
     res.json({home: true})
 })
 
-router.get('/ping', ApiController.ping)
+router.get('/ping', ApiController.ping);
 
 export default router;
